@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>Frontend Mentor | Interactive comments section</title>
+</head>
+
+<body>
+    <section class="main-wrapper">
+        <div class="chat-wrapper">
+            <div class="message">
+                <div class="likes owner">
+                    <div class="like-btn">
+                        <span class="increase"><i class="fa-solid fa-plus"></i></span>
+                        <span class="value">12</span>
+                        <span class="decrease"><i class="fa-solid fa-minus"></i></span>
+                    </div>
+                    <div class="user-actions">
+                        <span class="reply"><a href="#"><i class="fa-solid fa-reply"></i> Reply</a></span>
+                        <div class="delete-edit">
+                            <span class="delete"><a href="#"><i class="fa-solid fa-trash"></i> Delete</a></span>
+                            <span class="edit"><a href="#"><i class="fa-solid fa-pen"></i> Edit</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-body user-message">
+                    <div class="hero">
+                        <div class="left">
+                            <img src="./assets/images/avatars/image-amyrobson.png" alt="" class="avatar">
+                            <span class="username">
+                              anonymous 
+                            </span>
+                            <span class="user">You</span>
+                            <span class="time">1 month ago</span>
+                        </div>
+                        <div class="right">
+                            <span class="reply-link"><i class="fa-solid fa-reply"></i> Reply</span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="username">@randomuser</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum itaque debitis laboriosam inventore cumque perspiciatis natus ea! Veniam, accusantium quo dolore at ad labore?
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="likes">
+                    <div class="like-btn">
+                        <span class="increase"><i class="fa-solid fa-plus"></i></span>
+                        <span class="value">12</span>
+                        <span class="decrease"><i class="fa-solid fa-minus"></i></span>
+                    </div>
+                    <div class="user-actions">
+                        <span class="reply"><a href="#"><i class="fa-solid fa-reply"></i> Reply</a></span>
+                        <div class="delete-edit">
+                            <span class="delete"><a href="#"><i class="fa-solid fa-trash"></i> Delete</a></span>
+                            <span class="edit"><a href="#"><i class="fa-solid fa-pen"></i> Edit</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-body">
+                    <div class="hero">
+                        <div class="left">
+                            <img src="./assets/images/avatars/image-amyrobson.png" alt="" class="avatar">
+                            <span class="username">
+                              anonymous 
+                            </span>
+                            <span class="user">You</span>
+                            <span class="time">1 month ago</span>
+                        </div>
+                        <div class="right">
+                            <span class="reply-link"><i class="fa-solid fa-reply"></i> Reply</span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="username">@randomuser</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum itaque debitis laboriosam inventore cumque perspiciatis natus ea! Veniam, accusantium quo dolore at ad labore?
+                    </div>
+                </div>
+            </div>
+            <div class="replies">
+                <!-- single -->
+                <div class="message">
+                    <div class="likes">
+                        <div class="like-btn">
+                            <span class="increase"><i class="fa-solid fa-plus"></i></span>
+                            <span class="value">12</span>
+                            <span class="decrease"><i class="fa-solid fa-minus"></i></span>
+                        </div>
+                        <div class="user-actions">
+                            <span class="reply"><a href="#"><i class="fa-solid fa-reply"></i> Reply</a></span>
+                            <div class="delete-edit">
+                                <span class="delete"><a href="#"><i class="fa-solid fa-trash"></i> Delete</a></span>
+                                <span class="edit"><a href="#"><i class="fa-solid fa-pen"></i> Edit</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-body">
+                        <div class="hero">
+                            <div class="left">
+                                <img src="./assets/images/avatars/image-amyrobson.png" alt="" class="avatar">
+                                <span class="username">
+                              anonymous <span class="user">You</span>
+                                </span>
+                                <span class="time">1 month ago</span>
+                            </div>
+                            <div class="right">
+                                <span class="reply-link"><i class="fa-solid fa-reply"></i> Reply</span>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span class="username">@randomuser</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum itaque debitis laboriosam inventore cumque perspiciatis natus ea! Veniam, accusantium quo dolore at ad labore?
+                        </div>
+                    </div>
+                </div>
+                <div class="reply-message">
+                    <img src="./assets/images/avatars/image-amyrobson.webp" alt="" class="avatar">
+                    <textarea name="" cols="30" rows="7"></textarea>
+                    <a href="#" class="reply-btn">Reply</a>
+                </div>
+                <!-- end of single reply -->
+
+                <!-- single -->
+                <div class="message">
+                    <div class="likes owner">
+                        <div class="like-btn">
+                            <span class="increase"><i class="fa-solid fa-plus"></i></span>
+                            <span class="value">12</span>
+                            <span class="decrease"><i class="fa-solid fa-minus"></i></span>
+                        </div>
+                        <div class="user-actions">
+                            <span class="reply"><a href="#"><i class="fa-solid fa-reply"></i> Reply</a></span>
+                            <div class="delete-edit">
+                                <span class="delete"><a href="#"><i class="fa-solid fa-trash"></i> Delete</a></span>
+                                <span class="edit"><a href="#"><i class="fa-solid fa-pen"></i> Edit</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-body user-message">
+                        <div class="hero">
+                            <div class="left">
+                                <img src="./assets/images/avatars/image-amyrobson.png" alt="" class="avatar">
+                                <span class="username">
+                              anonymous <span class="user">You</span>
+                                </span>
+                                <span class="time">1 month ago</span>
+                            </div>
+                            <div class="right">
+                                <span class="reply-link"><i class="fa-solid fa-reply"></i> Reply</span>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span class="username">@randomuser</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum itaque debitis laboriosam inventore cumque perspiciatis natus ea! Veniam, accusantium quo dolore at ad labore?
+                        </div>
+                    </div>
+                </div>
+                <div class="reply-message">
+                    <img src="./assets/images/avatars/image-amyrobson.webp" alt="" class="avatar">
+                    <textarea name="" cols="30" rows="7"></textarea>
+                    <a href="#" class="reply-btn">Reply</a>
+                </div>
+                <!-- end of single reply -->
+            </div>
+            <div class="reply">
+                <textarea name="" cols="30" rows="7" placeholder="Add a comment..."></textarea>
+                <div class="footer">
+                    <img src="./assets/images/avatars/image-amyrobson.webp" alt="" class="avatar">
+                    <a href="#" class="reply-btn">send</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
